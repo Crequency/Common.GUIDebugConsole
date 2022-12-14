@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Common.ConsoleManager;
 
-Console.WriteLine("Hello, World!");
+Manager manager = new();
+manager.RegisterConsole("test");
+var test = manager.GetConsole("test");
+test.Start("./AConsole.exe");
+test.Process.WaitForExit();
