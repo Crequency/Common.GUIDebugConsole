@@ -4,8 +4,8 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <AssemblyName>Common.ConsoleManager</AssemblyName>
-        <RootNamespace>Common.ConsoleManager</RootNamespace>
+        <AssemblyName>Common.GUIDebugConsole.ConsoleManager</AssemblyName>
+        <RootNamespace>Common.GUIDebugConsole.ConsoleManager</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

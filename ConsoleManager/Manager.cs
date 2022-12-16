@@ -1,4 +1,4 @@
-﻿namespace Common.ConsoleManager;
+﻿namespace Common.GUIDebugConsole.ConsoleManager;
 
 public class Manager
 {
